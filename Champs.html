@@ -14,6 +14,7 @@
             font-weight:bold;
             font-style:oblique;
             font-size:50px;
+        
         }
         #assassins-click{
             position:absolute;
@@ -45,38 +46,42 @@
             top: 500px;
             left: 1600px;
         }
-        #info{
-            font-weight:bold;
-            font-size:20px;
-            position:absolute;
-            left:670px;
-            top:360px;
-
+ 
+        #champion {
+            font-size: 100px;
+            font-weight: bold;
+            font-style: oblique;
+            position: absolute;
+            left: 660px;
+            top: 200px;
+            z-index: 2;
         }
-       #champion {
-           font-size:100px;
-           font-weight:bold;
-           font-style:oblique;
-           position:absolute;
-           left:660px;
-           top:200px;
+        #chose {
+            position: absolute;
+            left: 800px;
+            top: 220px;
+            z-index: 2;
         }
-       #chose{
-           position:absolute;
-           left:800px;
-           top:220px;
-       }
         #riotgames {
             position: absolute;
             left: 20px;
             top: 0px;
+            z-index:2;
             
         }
-
+        #neeko {
+            position: absolute;
+            top: -200px;
+            left: 0px;
+            clip: rect(0px,2000px,700px,0px);
+            overflow: hidden;
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
     <a href="index.html"><img id="riotgames" src="https://static.developer.riotgames.com/img/logo.png" width=" 100" /></a>
+    <img id="neeko" src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-reveal-neeko/en_GB/b85d977b38b2c511e838a1b03ba51b581ce4f2af/assets/downloads/wallpapers/NEEKO_WALLPAPER_LOGO_1920X1200.jpg"width="1878"/>
     <h1 class="start" id="chose">CHOOSE YOUR</h1>
     <h1 class="start" id="champion">CHAMPION</h1>
     <h1 class ="select" id="assassins-click">Assassins</h1>
@@ -85,5 +90,4 @@
     <h1 class ="select" id="mahes-click">Mages</h1>
     <h1 class ="select" id="supports-click">Supports</h1>
     <h1 class ="select" id="fighters-click">Fighters</h1>
-    <p class="start" id="info">There are over 140 unique champions in League of Legends!</p>
 </body>
