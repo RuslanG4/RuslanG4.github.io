@@ -99,6 +99,22 @@
             overflow-y: auto;
             overflow-x: hidden;
         }
+        #mage-head {
+            position: absolute;
+            top: 1400px;
+            z-index: 4;
+        }
+        #mage-para {
+            position: absolute;
+            top: 1500px;
+            z-index: 4;
+            color: rgb(200 156 56);
+            font-size: 25px;
+            width: 60%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
         #sett{
             position:absolute;
             top:1100px;
@@ -113,20 +129,27 @@
             z-index: 3;
             border: 2px solid rgb(200 156 56);
         }
+        #syndra {
+            position: absolute;
+            top: 1450px;
+            left: 1250px;
+            z-index: 3;
+            border: 2px solid rgb(200 156 56);
+        }
     </style>
 </head>
 <body>
     <a href="index.html"><img id="riotgames" src="https://static.developer.riotgames.com/img/logo.png" width=" 100" /></a>
-    <img id="neeko" src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-reveal-neeko/en_GB/b85d977b38b2c511e838a1b03ba51b581ce4f2af/assets/downloads/wallpapers/NEEKO_WALLPAPER_LOGO_1920X1200.jpg" width="1878" />
+    <img id="neeko" src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-reveal-neeko/en_GB/b85d977b38b2c511e838a1b03ba51b581ce4f2af/assets/downloads/wallpapers/NEEKO_WALLPAPER_LOGO_1920X1200.jpg" width="1860" />
     <h1 class="start" id="chose">CHOOSE YOUR</h1>
     <h1 class="start" id="champion">CHAMPION</h1>
     <ul>
-        <li><a href="#assassin-head">Assasins</a></li>
+        <li><a href="#assassin-head">Assassins</a></li>
         <li><a href="#fight-head">Fighters</a></li>
-        <li><a href="">Mages</a></li>
+        <li><a href="#mage-head">Mages</a></li>
         <li><a href="">Tanks</a></li>
         <li><a href="">Marksmen</a></li>
-        <li><a href="">Suports</a></li>
+        <li><a href="">Supports</a></li>
     </ul>
     <h1 class="select" id="ass-head">Assassins</h1>
     <p id="assassin-para">
@@ -140,8 +163,17 @@
     <p id="fighter-para">
         Fighters are a class that often balance both damage and the abilty to take damage. Unlike the glass cannons that are assasins, <br />
         Fighters can also take damage. This class is often labelled as a juggernaut, and some of our most popular fighters are characters like Urgot and Darius.<br />
-        You should play a fighter if you like to dictate where the game goes, initiate fights and be feared by the enemy team. If your dream is to stick your axe<br />
-        , your sword or just your bare fists into someones face and defeat them, then the fighter class is for you!
+        You should play a fighter if you like to dictate where the game goes, initiate fights and be feared by the enemy team. If your dream is to stick your axe,<br />
+        your sword or just your bare fists into someones face and defeat them, then the fighter class is for you!
     </p>
     <img id="sett" src="https://static.wikia.nocookie.net/leagueoflegends/images/4/44/Sett_OriginalCentered.jpg/revision/latest/scale-to-width-down/1280?cb=20191212014421" width="500" />
+    <img id="mage" src="" width="500" />
+    <h1 class="select" id="mage-head">Mages</h1>
+    <p id="mage-para">
+        Mages use all things magical and mystical. Some mages rely on ancients ruins in order to cast the most powerful spells, others call upon their demonic  powers to bring down a swarm of crows.<br />
+        Mages utilise abilty power in order to maximise their damage output, most mages have a lower amount of health than fighters but they fight from a safer distance as most mages are  ranged.<br />
+        If you choose the warlock class in other games and enjoy blasting your enemies with powerful magic then the mage class if for you, not a fan of ranged mages? not to worry, there are mixes!<br />
+        There is a range of assassin mages and fighter mages and some of the most popular champions include Syndra, Viktor and Diana. 
+    </p>
+    <img id="syndra" src="https://s3-eu-central-1.amazonaws.com/www-staging.esports.com/WP%20Media%20Folder%20-%20esports-com//var/app/current/web/app/uploads/2020/08/Syndra_0.jpg" width="500" />
 </body>
