@@ -9,44 +9,34 @@
         .start{
             color:rgb(200 156 56);
         }
-        .select{
-            color:rgb(200 156 56);
-            font-weight:bold;
-            font-style:oblique;
-            font-size:50px;
-        
+        .select {
+            color: rgb(200 156 56);
+            font-weight: bold;
+            font-style: oblique;
+            font-size: 50px;
         }
-        #assassins-click{
-            position:absolute;
-            top:500px;
-            left:50px;
-        }
-        #fighters-click {
+        ul {
+            list-style-type: none;
             position: absolute;
             top: 500px;
-            left: 370px;
+            left: 50px;
+            background-color: rgb(21 19 19);
+            border: 2px solid rgb(200 156 56);
         }
-        #mahes-click {
-            position: absolute;
-            top: 500px;
-            left: 700px;
+        li{
+            float:left;
         }
-        #supports-click {
-            position: absolute;
-            top: 500px;
-            left: 1000px;
-        }
-        #tanks-click {
-            position: absolute;
-            top: 500px;
-            left: 1330px;
-        }
-        #marksmen-click {
-            position: absolute;
-            top: 500px;
-            left: 1600px;
-        }
- 
+
+            li a {
+                display: block;
+                color: rgb(200 156 56);
+                font-weight: bold;
+                font-style: oblique;
+                font-size: 50px;
+                text-align: center;
+                padding: 14px 60px;
+               
+            }
         #champion {
             font-size: 100px;
             font-weight: bold;
@@ -77,17 +67,81 @@
             overflow: hidden;
             z-index: 1;
         }
+        #assassin-para{
+            position:absolute;
+            top:750px;
+            z-index:4;
+            color:rgb(200 156 56);
+            font-size:25px;
+            width:60%;
+            height:180px;
+            overflow-y:auto;
+            overflow-x:hidden;
+        }
+        #ass-head{
+            position:absolute;
+            top:650px;
+            z-index:4;
+        }
+        #fight-head{
+            position:absolute;
+            top:1050px;
+            z-index:4;
+        }
+        #fighter-para {
+            position: absolute;
+            top: 1150px;
+            z-index: 4;
+            color: rgb(200 156 56);
+            font-size: 25px;
+            width: 60%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        #sett{
+            position:absolute;
+            top:1100px;
+            left:1250px;
+            z-index:3;
+            border:2px solid rgb(200 156 56);
+        }
+        #akali {
+            position: absolute;
+            top: 750px;
+            left: 1250px;
+            z-index: 3;
+            border: 2px solid rgb(200 156 56);
+        }
     </style>
 </head>
 <body>
     <a href="index.html"><img id="riotgames" src="https://static.developer.riotgames.com/img/logo.png" width=" 100" /></a>
-    <img id="neeko" src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-reveal-neeko/en_GB/b85d977b38b2c511e838a1b03ba51b581ce4f2af/assets/downloads/wallpapers/NEEKO_WALLPAPER_LOGO_1920X1200.jpg"width="1878"/>
+    <img id="neeko" src="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-reveal-neeko/en_GB/b85d977b38b2c511e838a1b03ba51b581ce4f2af/assets/downloads/wallpapers/NEEKO_WALLPAPER_LOGO_1920X1200.jpg" width="1878" />
     <h1 class="start" id="chose">CHOOSE YOUR</h1>
     <h1 class="start" id="champion">CHAMPION</h1>
-    <h1 class ="select" id="assassins-click">Assassins</h1>
-    <h1 class ="select" id="tanks-click">Tanks</h1>
-    <h1 class ="select" id="marksmen-click">Marksmen</h1>
-    <h1 class ="select" id="mahes-click">Mages</h1>
-    <h1 class ="select" id="supports-click">Supports</h1>
-    <h1 class ="select" id="fighters-click">Fighters</h1>
+    <ul>
+        <li><a href="#assassin-head">Assasins</a></li>
+        <li><a href="#fight-head">Fighters</a></li>
+        <li><a href="">Mages</a></li>
+        <li><a href="">Tanks</a></li>
+        <li><a href="">Marksmen</a></li>
+        <li><a href="">Suports</a></li>
+    </ul>
+    <h1 class="select" id="ass-head">Assassins</h1>
+    <p id="assassin-para">
+        Assasins are classified as characters with high mobilty and high damage. It is the Assassins job to pick out priority targets, kill them in an instant and get away without being harmed.<br />
+        Assasins can vary from dagger weilding bounty hunters to Magic weilding demons, what groups them all together is their abilty to put you on a death timer in mere seconds.<br />
+        These characters are usually the most popular but also the most difficult, only dedicated players truly master a Zed combination, or how to properly roam with Talon.<br />
+        Some characters like Katarina on the other hand require minimal skill and return the same reward-forcing your enemy to yell at how unfair and unbalanced your kit is.
+    </p>
+    <img id="akali" src="https://images.hdqwalls.com/download/akali-league-of-legends-art-4k-j4-1280x720.jpg" width="500" />
+    <h1 class="select" id="fight-head">Fighters</h1>
+    <p id="fighter-para">
+        Fighters are a class that often balance both damage and the abilty to take damage. Unlike the glass cannons that are assasins, <br />
+        Fighters can also take damage. This class is often labelled as a juggernaut, and some of our most popular fighters are characters like Urgot and Darius.<br />
+        You should play a fighter if you like to dictate where the game goes, initiate fights and be feared by the enemy team. If your dream is to stick your axe<br />
+        , your sword or just your bare fists into someones face and defeat them, then the fighter class is for you!
+    </p>
+    <img id="sett" src="https://static.wikia.nocookie.net/leagueoflegends/images/4/44/Sett_OriginalCentered.jpg/revision/latest/scale-to-width-down/1280?cb=20191212014421" width="500" />
 </body>
