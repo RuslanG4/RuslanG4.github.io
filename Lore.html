@@ -2,42 +2,95 @@
 <html>
 <head>
     <style>
+        #riotgames {
+            position: absolute;
+            left: 70px;
+            top: 270px;
+            z-index: 2;
+        }
+        #runeterra {
+            position: absolute;
+            left: 240px;
+            top: 0px;
+            filter: brightness(20%);
+            z-index: 1;
+        }
+        #map {
+            position: absolute;
+            left: 300px;
+            top: 50px;
+            z-index: 2;
+            border:2px solid rgb(200 156 56);
+        }
+        body {
+            background-color: rgb(19 27 46);
+        }
         ul {
             list-style-type: none;
-            padding: 0px;
-            overflow: hidden;
-          
-        }
-
-        li {
-            float: left;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(21 19 19);
+            border: 2px solid rgb(200 156 56);
+            height: 1300px;
         }
 
         li a {
             display: block;
             color: rgb(200 156 56);
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+            font-weight: bold;
+            font-style: oblique;
+            font-size: 30px;
+            text-align:center;
+            padding: 18px 28px;
+            text-decoration: none
         }
-
-                li a:hover {
-                    background-color: #111;
-                }
-        .menu-text{
-            font-size:25px;
-            font-style:oblique;
+        #world-head {
+            position: absolute;
+            top:40px;
+            left:850px;
+            font-weight: bold;
+            color: rgb(200 156 56);
+            font: oblique 30px;
+            z-index: 2;
+        }
+        .text {
+            position: absolute;
+            top: 90px;
+            left: 850px;
+            font-weight: bold;
+            color: rgb(200 156 56);
+            font-size:20px;
+            z-index: 2;
+        }
+        #world-info{
+            width:50%;
+            height:200px;
+            overflow-y:auto;
+            overflow-x:hidden;
         }
     </style>
 </head>
 <body>
-
+    <a href="index.html"><img id="riotgames" src="https://static.developer.riotgames.com/img/logo.png" width=" 100" /></a>
+    <img id="runeterra" src="https://images4.alphacoders.com/105/thumb-1920-1050982.jpg" width="1620" height="1300" />
+    <img id="map" src="https://d1wrci9wmi4ouq.cloudfront.net/news/images/4416/f1008c6d1bc7318b628d1dd305bf77cb/thumbs/web/w800/jpg/d3fae8d05e3a03f218cb06a2d463eb02.jpg" width="500" />
     <ul>
-        <li><a class="menu-text" href="Champs.html">Champs</a></li>
-        <li><a class="menu-text" href="Lore.html">Lore</a></li>
-        <li><a class="menu-text" href="Roles.html">Roles</a></li>
-        <li><a class="menu-text" href="">About</a></li>
+        <li><a href="Champs.html">CHAMPIONS</a></li>
+        <li><a href="Lore.html">LORE</a></li>
+        <li><a href="Roles.html">ROLES</a></li>
+        <li><a href="#about">ABOUT</a></li>
     </ul>
+    <h1 id="world-head">ZA WARUDO</h1>
+    <p class="text"id="world-info">The League of Legends Universe is split into many different territories, each with a unique identity and history behind it.<br />
+        The world has a story to relate to almost anyone! Are you a thrill seeking adventurer who loves to sail the seven seas, then Bilgewater is for you.<br />
+    Are you a knight looking to serve a king and expand your mighty empire, You my friend are a Demacian. Fancy a desert of sand - that's Shurima.
+    <br />Do you strive for technological prowess or want to rule the under-belly of a city where all sorts of characters appear, then take a visit to Piltover and Zaun.<br />
+    Perhaps a viking living in the tundra worshipping the old gods, or a half animal protecting nature, maybe your a shadow demon hell bent on destroying the world!<br />
+    The point is the world is so fast and full of life, there is never a place where you are bored, and wioth over 140 characters in the game each with a unique lore,<br />
+    There is no such reading up you can do!</p>
 
 </body>
 </html>
