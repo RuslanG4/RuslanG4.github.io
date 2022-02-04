@@ -43,8 +43,10 @@ li {
     font-size: 100px;
     font-weight: bold;
     font-style: oblique;
-    position: absolute;
-    left: 660px;
+    display:block;
+    position: relative;
+    margin-left: 560px;
+    margin-right:auto;
     top: 200px;
     z-index: 2;
 }
@@ -52,10 +54,9 @@ li {
 #chose {
     display: block;
     position: relative;
-    margin-left: auto;
+    margin-left: 700px;
     margin-right: auto;
     position: absolute;
-    left: 800px;
     top: 220px;
     z-index: 2;
 }
@@ -147,6 +148,38 @@ li {
     overflow-y: auto;
     overflow-x: hidden;
 }
+#marksmen-head {
+    position: absolute;
+    top: 2100px;
+    z-index: 4;
+}
+#marks-para {
+    position: absolute;
+    top: 2200px;
+    z-index: 4;
+    color: rgb(200 156 56);
+    font-size: 25px;
+    width: 60%;
+    height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#supp-head {
+    position: absolute;
+    top: 2450px;
+    z-index: 4;
+}
+#supp-para {
+    position: absolute;
+    top: 2550px;
+    z-index: 4;
+    color: rgb(200 156 56);
+    font-size: 25px;
+    width: 60%;
+    height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 #darius {
     position: absolute;
@@ -175,6 +208,20 @@ li {
 #malph {
     position: absolute;
     top: 1800px;
+    left: 1050px;
+    z-index: 3;
+    border: 2px solid rgb(200 156 56);
+}
+#ashe {
+    position: absolute;
+    top: 2150px;
+    left: 1050px;
+    z-index: 3;
+    border: 2px solid rgb(200 156 56);
+}
+#taric {
+    position: absolute;
+    top: 2500px;
     left: 1050px;
     z-index: 3;
     border: 2px solid rgb(200 156 56);

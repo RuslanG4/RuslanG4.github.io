@@ -33,20 +33,20 @@ body {
 #champions {
     position: absolute;
     margin-left: 150px;
-    top: 700px;
+    top: 600px;
     z-index: 3;
 }
 
 #lore-img {
     position: absolute;
-    top: 700px;
+    top: 600px;
     left: 650px;
     z-index: 3;
 }
 
 #roles-img {
     position: absolute;
-    top: 700px;
+    top: 600px;
     left: 1150px;
     z-index: 3;
 }
@@ -62,18 +62,18 @@ body {
 #champs {
     position: absolute;
     left: 200px;
-    top: 600px;
+    top: 500px;
 }
 
 #lore {
     position: absolute;
     left: 780px;
-    top: 600px;
+    top: 500px;
 }
 
 #roles {
     position: absolute;
     left: 1270px;
-    top: 600px;
+    top: 500px;
 }
 
