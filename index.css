@@ -2,17 +2,20 @@ body {
     overflow-x: hidden;
 }
 #league {
-    position: relative;
-    top: 200px;
-    left: 640px;
+    display:block;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:200px;
+    width:600px;
     z-index: 2;
 }
 
 #bg {
-    width: 1879px;
     position: absolute;
     top: 0px;
     left: 0px;
+    width: 1879px;
     z-index: 1;
 }
 
@@ -29,22 +32,22 @@ body {
 
 #champions {
     position: absolute;
+    margin-left: 150px;
     top: 700px;
-    left: 250px;
     z-index: 3;
 }
 
 #lore-img {
     position: absolute;
     top: 700px;
-    left: 750px;
+    left: 650px;
     z-index: 3;
 }
 
 #roles-img {
     position: absolute;
     top: 700px;
-    left: 1250px;
+    left: 1150px;
     z-index: 3;
 }
 
@@ -58,19 +61,19 @@ body {
 
 #champs {
     position: absolute;
-    left: 300px;
+    left: 200px;
     top: 600px;
 }
 
 #lore {
     position: absolute;
-    left: 880px;
+    left: 780px;
     top: 600px;
 }
 
 #roles {
     position: absolute;
-    left: 1370px;
+    left: 1270px;
     top: 600px;
 }
 

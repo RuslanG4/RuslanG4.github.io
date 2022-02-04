@@ -1,6 +1,7 @@
 
 body {
     background-color: rgb(19 27 46);
+    overflow-x:hidden;
 }
 
 .start {
@@ -18,7 +19,7 @@ ul {
     list-style-type: none;
     position: absolute;
     top: 500px;
-    left: 50px;
+    margin-left: 80px;
     background-color: rgb(21 19 19);
     border: 2px solid rgb(200 156 56);
 }
@@ -32,10 +33,10 @@ li {
         color: rgb(200 156 56);
         font-weight: bold;
         font-style: oblique;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         padding: 18px 28px;
-        text-decoration: none
+        text-decoration: none;
     }
 
 #champion {
@@ -49,6 +50,10 @@ li {
 }
 
 #chose {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     left: 800px;
     top: 220px;
@@ -146,7 +151,7 @@ li {
 #darius {
     position: absolute;
     top: 1100px;
-    left: 1250px;
+    left: 1050px;
     z-index: 3;
     border: 2px solid rgb(200 156 56);
 }
@@ -154,7 +159,7 @@ li {
 #akali {
     position: absolute;
     top: 750px;
-    left: 1250px;
+    margin-left:1050px;
     z-index: 3;
     border: 2px solid rgb(200 156 56);
 }
@@ -162,7 +167,7 @@ li {
 #syndra {
     position: absolute;
     top: 1450px;
-    left: 1250px;
+    left: 1050px;
     z-index: 3;
     border: 2px solid rgb(200 156 56);
 }
@@ -170,7 +175,7 @@ li {
 #malph {
     position: absolute;
     top: 1800px;
-    left: 1250px;
+    left: 1050px;
     z-index: 3;
     border: 2px solid rgb(200 156 56);
 }
