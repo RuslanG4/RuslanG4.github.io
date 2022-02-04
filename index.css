@@ -1,0 +1,76 @@
+body {
+    overflow-x: hidden;
+}
+#league {
+    position: relative;
+    top: 200px;
+    left: 640px;
+    z-index: 2;
+}
+
+#bg {
+    width: 1879px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#riotgames {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    z-index: 3;
+}
+
+.img {
+    border: 2px groove rgb(200 156 56);
+}
+
+#champions {
+    position: absolute;
+    top: 700px;
+    left: 250px;
+    z-index: 3;
+}
+
+#lore-img {
+    position: absolute;
+    top: 700px;
+    left: 750px;
+    z-index: 3;
+}
+
+#roles-img {
+    position: absolute;
+    top: 700px;
+    left: 1250px;
+    z-index: 3;
+}
+
+.menu {
+    color: rgb(200 156 56);
+    position: relative;
+    font-style: oblique;
+    font-size: 50px;
+    z-index: 3;
+}
+
+#champs {
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}
+
+#lore {
+    position: absolute;
+    left: 880px;
+    top: 600px;
+}
+
+#roles {
+    position: absolute;
+    left: 1370px;
+    top: 600px;
+}
+
