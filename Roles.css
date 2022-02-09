@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(19 27 46);
+    height:3800px;
+}
+
+
+#teemo {
+    position: absolute;
+    width: 100%;
+    left:0%;
+    top: 300px;
+    overflow-x: hidden;
+    clip: rect(0px,2000px,700px,0px);
+    filter: brightness(20%);
+}
+#rengar {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 1000px;
+    overflow-x: hidden;
+    clip: rect(0px,1920px,700px,0px);
+    filter: brightness(20%);
+}
+#ahri {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 1700px;
+    overflow-x: hidden;
+    clip: rect(0px,2000px,700px,0px);
+    filter: brightness(20%);
+}
+#jinx {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 2400px;
+    overflow-x: hidden;
+    clip: rect(0px,2000px,700px,0px);
+    filter: brightness(20%);
+}
+#swain {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 3100px;
+    overflow-x: hidden;
+    clip: rect(0px,2000px,700px,0px);
+    filter: brightness(20%);
+}
+
+.headings {
+    position:absolute;
+    left:40%;
+    color: rgb(200 156 56);
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 100px;
+}
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 190px;
+    left: 29%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21 19 19);
+    border: 2px solid rgb(200 156 56);
+    height: 70px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(200 156 56);
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    padding: 18px 28px;
+    text-decoration: none
+}
+
+#riotgames {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+  
+}
+#top{
+    position:absolute;
+    top:300px;
+    left:5%;
+}
+#jungle {
+    position: absolute;
+    top: 1000px;
+    left: 5%;
+}
+#mid {
+    position: absolute;
+    top: 1700px;
+    left: 5%;
+}
+#adc {
+    position: absolute;
+    top: 2400px;
+    left: 5%;
+}
+#support {
+    position: absolute;
+    top: 3100px;
+    left: 5%;
+}
